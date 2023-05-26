@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main(){
@@ -13,7 +14,7 @@ int main(){
         iteraciones++;
 
     }
-    
+    cout << setprecision(7);
     cout << "El número pi con sus primeros 6 decimales es: " << pi << endl;
     return 0;
 }
